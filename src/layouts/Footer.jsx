@@ -10,7 +10,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-peach text-center w-full px-4 py-8">
+    <footer className="bg-peach text-center w-full py-8">
       <section className="px-4 space-y-4">
         <div className="w-full">
           <ul className="font-thin lg:flex justify-center gap-4">

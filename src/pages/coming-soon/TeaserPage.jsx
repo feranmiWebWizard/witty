@@ -6,7 +6,7 @@ function TeaserPage() {
   return (
     <>
       <Navbar />
-      <section className="bg-peach1 flex justify-center items-center w-full h-[100vh]">
+      <section className="bg-peach1 flex justify-center items-center h-screen">
         <motion.h1
           initial={{
             opacity: 0,
@@ -18,7 +18,7 @@ function TeaserPage() {
             duration: 2,
             ease: "easeInOut",
           }}
-          className="text-purple text-5xl"
+          className="text-purple text-2xl md:text-5xl my-auto"
         >
           Coming Soon
           <motion.span

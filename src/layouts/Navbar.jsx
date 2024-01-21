@@ -90,7 +90,15 @@ function Navbar() {
                     initial="untouched"
                     className=""
                   >
-                    Home
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Home
+                    </NavLink>
                   </motion.li>
                   <motion.li
                     variants={{
@@ -101,7 +109,15 @@ function Navbar() {
                     initial="untouched"
                     className=""
                   >
-                    Menu
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/coming-soon"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Menu
+                    </NavLink>
                   </motion.li>
                   <motion.li
                     variants={{
@@ -112,7 +128,15 @@ function Navbar() {
                     initial="untouched"
                     className=""
                   >
-                    Our Story
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/coming-soon"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Our Story
+                    </NavLink>
                   </motion.li>
                   <motion.li
                     variants={{
@@ -123,7 +147,15 @@ function Navbar() {
                     initial="untouched"
                     className=""
                   >
-                    Order Now
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/coming-soon"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Order Now
+                    </NavLink>
                   </motion.li>
                   <motion.li
                     variants={{
@@ -134,7 +166,15 @@ function Navbar() {
                     initial="untouched"
                     className=""
                   >
-                    Contact Us
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/coming-soon"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Contact
+                    </NavLink>
                   </motion.li>
                 </ul>
               </motion.div>
