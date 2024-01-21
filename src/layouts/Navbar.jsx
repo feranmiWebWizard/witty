@@ -1,9 +1,16 @@
 import { motion, useCycle, AnimatePresence, MotionConfig } from "framer-motion";
 import logo from "../../src/assets/images/logo.jpg";
 import { NavLink } from "react-router-dom";
+import Button from "../components/ui/Button";
 
 function Navbar() {
   const [mobileNav, toggleMobileNav] = useCycle(false, true);
+
+  const buttonData = {
+    name: "Order now!",
+    color: "#F7B2B7DE",
+    textColor: "#000000",
+  };
 
   return (
     <nav className="bg-purple sticky top-0 inset-x-0 z-[10] p-4">
@@ -165,14 +172,7 @@ function Navbar() {
               Menu
             </NavLink>
           </motion.li>
-          <motion.li
-            whileHover={{ scale: 1.2, backgroundColor: "#F7B2B7DE" }}
-            whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-            className="bg-black text-white rounded-[1rem] cursor-pointer py-3 px-4"
-          >
-            Order Now!
-          </motion.li>
+          <Button {...buttonData} />
         </ul>
       </div>
     </nav>

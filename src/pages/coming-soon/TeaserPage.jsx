@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import Navbar from "../../layouts/Navbar";
+import Footer from "../../layouts/Footer";
 
 function TeaserPage() {
   return (
     <>
-      <section className="bg-purple flex justify-center items-center w-full h-[100vh]">
+      <Navbar />
+      <section className="bg-peach1 flex justify-center items-center w-full h-[100vh]">
         <motion.h1
           initial={{
             opacity: 0,
@@ -15,7 +18,7 @@ function TeaserPage() {
             duration: 2,
             ease: "easeInOut",
           }}
-          className="text-white text-5xl"
+          className="text-purple text-5xl"
         >
           Coming Soon
           <motion.span
@@ -41,6 +44,7 @@ function TeaserPage() {
           </motion.span>
         </motion.h1>
       </section>
+      <Footer />
     </>
   );
 }
