@@ -14,9 +14,10 @@ function CardThree({ title, text }) {
     <>
       <section className="md:grid grid-cols-2 py-[10rem] px-4">
         <motion.section
-          initial={{ opacity: 0, y: -100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 1, repeat: 0 }}
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5, duration: 1 }}
           className="flex items-center justify-center relative"
         >
           <img className=" relative" src={birthdayCake} alt="a birthday cake" />

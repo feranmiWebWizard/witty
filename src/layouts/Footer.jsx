@@ -28,7 +28,7 @@ function Footer() {
                 y: -4,
               }}
             >
-              <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
+              <NavLink to="/about" activeStyle={{ color: "black" }}>
                 Our Story
               </NavLink>
             </motion.li>

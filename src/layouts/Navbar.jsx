@@ -132,7 +132,7 @@ function Navbar() {
                       onClick={() => {
                         toggleMobileNav();
                       }}
-                      to="/coming-soon"
+                      to="/about"
                       activeStyle={{ color: "black" }}
                     >
                       Our Story
@@ -198,7 +198,7 @@ function Navbar() {
             </NavLink>
           </motion.li>
           <motion.li whileHover={{ y: -5 }} className="">
-            <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
+            <NavLink to="/about" activeStyle={{ color: "black" }}>
               Our Story
             </NavLink>
           </motion.li>
