@@ -113,25 +113,6 @@ function Navbar() {
                       onClick={() => {
                         toggleMobileNav();
                       }}
-                      to="/coming-soon"
-                      activeStyle={{ color: "black" }}
-                    >
-                      Menu
-                    </NavLink>
-                  </motion.li>
-                  <motion.li
-                    variants={{
-                      tapped: { scale: 1.2 },
-                      untouched: { scale: 1 },
-                    }}
-                    whileTap="tapped"
-                    initial="untouched"
-                    className=""
-                  >
-                    <NavLink
-                      onClick={() => {
-                        toggleMobileNav();
-                      }}
                       to="/about"
                       activeStyle={{ color: "black" }}
                     >
@@ -154,7 +135,7 @@ function Navbar() {
                       to="/coming-soon"
                       activeStyle={{ color: "black" }}
                     >
-                      Order Now
+                      Contact
                     </NavLink>
                   </motion.li>
                   <motion.li
@@ -173,7 +154,26 @@ function Navbar() {
                       to="/coming-soon"
                       activeStyle={{ color: "black" }}
                     >
-                      Contact
+                      Cakes & More
+                    </NavLink>
+                  </motion.li>
+                  <motion.li
+                    variants={{
+                      tapped: { scale: 1.2 },
+                      untouched: { scale: 1 },
+                    }}
+                    whileTap="tapped"
+                    initial="untouched"
+                    className=""
+                  >
+                    <NavLink
+                      onClick={() => {
+                        toggleMobileNav();
+                      }}
+                      to="/coming-soon"
+                      activeStyle={{ color: "black" }}
+                    >
+                      Order Now
                     </NavLink>
                   </motion.li>
                 </ul>
@@ -209,7 +209,7 @@ function Navbar() {
           </motion.li>
           <motion.li whileHover={{ y: -5 }} className="">
             <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
-              Menu
+              Cakes & More
             </NavLink>
           </motion.li>
           <Button {...buttonData} />

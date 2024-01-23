@@ -11,7 +11,7 @@ function SocialBanner() {
     textColor: "#000000",
   };
   return (
-    <section className="bg-peach1 text-center flex flex-col items-center gap-2 py-[10rem]">
+    <section className="bg-peach1 text-center flex flex-col items-center gap-4 py-[10rem]">
       <h1 className="text-3xl mb-[4rem]">Get Social with Witty Bakehouse</h1>
       <section className="flex flex-col md:flex-row gap-2">
         <img
