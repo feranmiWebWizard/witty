@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 function Button({ name, color, textColor }) {
   return (
@@ -13,9 +13,9 @@ function Button({ name, color, textColor }) {
     </motion.button>
   );
 }
-Button.PropTypes = {
-  name: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  textColor: PropTypes.string.isRequired,
+Button.propTypes = {
+  name: propTypes.string.isRequired,
+  color: propTypes.string.isRequired,
+  textColor: propTypes.string.isRequired,
 };
 export default Button;

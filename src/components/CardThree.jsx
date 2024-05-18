@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import { motion } from "framer-motion";
 import Button from "./ui/Button";
 import birthdayCake from "../assets/images/birthday-cake.jpg";
@@ -37,8 +37,8 @@ function CardThree({ title, text }) {
   );
 }
 
-CardThree.PropTypes = {
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+CardThree.propTypes = {
+  title: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
 };
 export default CardThree;

@@ -1,5 +1,5 @@
 import Button from "./Button";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 function TopBanner({ title, subtitle }) {
   const buttonData = {
@@ -18,9 +18,9 @@ function TopBanner({ title, subtitle }) {
   );
 }
 
-TopBanner.PropTypes = {
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+TopBanner.propTypes = {
+  title: propTypes.string.isRequired,
+  subtitle: propTypes.string.isRequired,
 };
 
 export default TopBanner;

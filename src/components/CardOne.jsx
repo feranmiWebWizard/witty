@@ -1,5 +1,5 @@
 import Button from "./ui/Button";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 function CardOne({ title, text }) {
   const buttonData = {
@@ -18,9 +18,9 @@ function CardOne({ title, text }) {
   );
 }
 
-CardOne.PropTypes = {
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+CardOne.propTypes = {
+  title: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
 };
 
 export default CardOne;

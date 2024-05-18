@@ -1,5 +1,5 @@
 import Button from "./Button";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 export function ImageTextBlock({ img, title, textOne, textTwo }) {
   const buttonData = {
@@ -20,9 +20,9 @@ export function ImageTextBlock({ img, title, textOne, textTwo }) {
   );
 }
 
-ImageTextBlock.PropTypes = {
-  img: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  textOne: PropTypes.string.isRequired,
-  texttwo: PropTypes.string.isRequired,
+ImageTextBlock.propTypes = {
+  img: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+  textOne: propTypes.string.isRequired,
+  textTwo: propTypes.string.isRequired,
 };

@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 function HeroBanner({ img, title, subtitle, text }) {
   return (
@@ -13,9 +13,9 @@ function HeroBanner({ img, title, subtitle, text }) {
   );
 }
 
-HeroBanner.PropTypes = {
-  img: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+HeroBanner.propTypes = {
+  img: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+  text: propTypes.string.isRequired,
 };
 export default HeroBanner;

@@ -19,45 +19,35 @@ function Footer() {
                 y: -4,
               }}
             >
-              <NavLink to="/" activeStyle={{ color: "black" }}>
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </motion.li>
             <motion.li
               whileHover={{
                 y: -4,
               }}
             >
-              <NavLink to="/about" activeStyle={{ color: "black" }}>
-                Our Story
-              </NavLink>
+              <NavLink to="/about">Our Story</NavLink>
             </motion.li>
             <motion.li
               whileHover={{
                 y: -4,
               }}
             >
-              <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
-                Menu
-              </NavLink>
+              <NavLink to="/coming-soon">Menu</NavLink>
             </motion.li>
             <motion.li
               whileHover={{
                 y: -4,
               }}
             >
-              <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
-                Order Now
-              </NavLink>
+              <NavLink to="/coming-soon">Order Now</NavLink>
             </motion.li>
             <motion.li
               whileHover={{
                 y: -4,
               }}
             >
-              <NavLink to="/coming-soon" activeStyle={{ color: "black" }}>
-                Privacy Policy
-              </NavLink>
+              <NavLink to="/coming-soon">Privacy Policy</NavLink>
             </motion.li>
           </ul>
         </div>
